@@ -26,5 +26,11 @@
           <!--ik moest de lengte en breedte van de foto hier neerzetten want hij deed het niet als ik het in de css zetten.-->
       </ul>
     </nav>
+    <form name="oefen" action="form.php" method="post">
+      <p>geef je naam <input type="text" name="naam"></p>
+      <p><input type="submit" name="sent" value="Verstuur"></p>
+    </form>
+
+    
 </body>
 </html>
