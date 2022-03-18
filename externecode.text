@@ -1,0 +1,6 @@
+    <form name="oefen" action="form.php" method="post">
+      <p>geef je naam <input type="text" name="naam"></p>
+      <p><input type="submit" name="sent" value="Verstuur"></p>
+    </form>
+
+    

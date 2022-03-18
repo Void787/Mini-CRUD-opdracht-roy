@@ -2,4 +2,27 @@ header {
   width: 400px;
   height: 400px;
   background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  height: 100% !important;
+  width: 100% !important;
+}
+nav {
+  background-color: yellow;
+}
+.hover1:hover {
+  background-color: #008d44 !important;
+}
+.hover2:hover {
+  background-color: #f7f7f7 !important;
+}
+.hover3:hover {
+  background-color: #c82a35 !important;
+}
+.cv1 {
+  height: 100% !important;
 }
