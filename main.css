@@ -12,17 +12,26 @@ main {
   width: 100% !important;
 }
 nav {
-  background-color: yellow;
+  background-color: rgba(255,255,255,.2) !important;
 }
 .hover1:hover {
-  background-color: #008d44 !important;
+  background-color: linear-gradient( 135deg, #FDD819 10%, #E80505 100%) !important;
 }
 .hover2:hover {
-  background-color: #f7f7f7 !important;
+  background-color: #008d44 !important;
 }
 .hover3:hover {
+  background-color: #f7f7f7 !important;
+}
+.hover4:hover {
   background-color: #c82a35 !important;
 }
 .cv1 {
-  height: 100% !important;
+  background-image: url("../Mini-CRUD-opdracht/img/pizza.jpg");
+  width: 100% !important;
+  min-height: 1000px !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
