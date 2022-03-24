@@ -1,6 +1,3 @@
-<?php 
-  require_once'odp.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 
