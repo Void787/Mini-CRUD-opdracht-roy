@@ -10,7 +10,7 @@
 
 <body>
     <nav>
-        <ul class="nav nav-pills nav-fill">
+        <ul class="nav nav-pills nav-fill bg-warning">
             <li class="nav-item">
                 <a class="nav-link hover1" href="index.php">home</a>
             </li>

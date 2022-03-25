@@ -11,14 +11,11 @@ main {
   height: 100% !important;
   width: 100% !important;
 }
-nav {
-  background-color: rgba(255,255,255,.2) !important;
-}
 .hover1:hover {
-  background-color: linear-gradient( 135deg, #FDD819 10%, #E80505 100%) !important;
+  background-color: #008d44 !important;
 }
 .hover2:hover {
-  background-color: #008d44 !important;
+  background-color: #f7f7f7 !important;
 }
 .hover3:hover {
   background-color: #f7f7f7 !important;
