@@ -26,16 +26,15 @@
       <p><input type="submit" name="sent" value="Verstuur"></p>
     </form> , <p><input type="submit" ></p> -->
     <div class="card text-white bg-warning mb-3 cv1">
-    <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+    <!--<img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">-->
       <div class="card-img-overlay">
-        <form class="position-absolute top-50 start-50 translate-middle">
-          <p>username: <input type="text" class="UN"></p>
-          <p>password: <input type="text" class="psw"></p>
-          <button class=""></button>
-        </form>
+        <!--<form onsubmit="submitForm(event)" class="position-absolute top-50 start-50 translate-middle" id="my-form">-->
+          <p>username: <input type="text" id="username"></p>
+          <p>password: <input type="text" id="password"></p>
+          <button onclick="clicked()" id="login-button" >inloggen</button>
+        <!--</form>-->
       </div>
     </div>
-        
+  <script src="E-functies.js"></script>
 </body>
-<script src="E-functies"></script>
 </html>
