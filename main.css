@@ -32,3 +32,8 @@ main {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+#center_flex{
+  display: flex;
+  align-items: center;
+  
+}

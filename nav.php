@@ -23,7 +23,7 @@
             <li class="nav-item">
                 <a class="nav-link hover4" href="contact.php">Contact</a>
             </li>
-            <img element onclick="index.php" src="img/pizza.png" alt="het is een pizza" width="50" height="50">
+            <img src="img/pizza.png" alt="het is een pizza" width="50" height="50">
             <!--ik moest de lengte en breedte van de foto hier neerzetten want hij deed het niet als ik het in de css zette.-->
         </ul>
     </nav>

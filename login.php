@@ -21,18 +21,11 @@
   <div class="position-absolute top-50 start-10 translate-middle">
     <p></p>
   </div>
-  <!--<form class="position-absolute top-50 start-50 translate-middle"name="oefen" action="form.php" method="post">
-      <p>geef je naam <input type="text" name="naam"></p>
-      <p><input type="submit" name="sent" value="Verstuur"></p>
-    </form> , <p><input type="submit" ></p> -->
-    <div class="card text-white bg-warning mb-3 cv1">
-    <!--<img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">-->
-      <div class="card-img-overlay">
-        <!--<form onsubmit="submitForm(event)" class="position-absolute top-50 start-50 translate-middle" id="my-form">-->
+    <div class="p-3 mb-2 bg-warning text-dark ">
+      <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
           <p>username: <input type="text" id="username"></p>
           <p>password: <input type="text" id="password"></p>
           <button onclick="clicked()" id="login-button" >inloggen</button>
-        <!--</form>-->
       </div>
     </div>
   <script src="E-functies.js"></script>
