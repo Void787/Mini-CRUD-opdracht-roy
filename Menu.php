@@ -14,8 +14,49 @@
 
 <body>
   <?php include_once 'nav.php'; ?>
-  <table id="center_flex">
+  <table class="m-1" id="center_flex">
     <tr>
+      <td>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      
       <td>
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
@@ -26,6 +67,49 @@
           </div>
         </div>
       </td>
+    </tr>
+        <tr>
+        <td>
+      <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <div class="card me-3" style="width: 18rem;">
+          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </td>
+      
       <td>
       <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
@@ -37,6 +121,7 @@
         </div>
       </td>
     </tr>
+
   </table>
 
 
