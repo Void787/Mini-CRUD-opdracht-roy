@@ -18,16 +18,15 @@
 <body>
 
   <?php include_once 'nav.php'; ?>
-  <div class="position-absolute top-50 start-10 translate-middle">
-    <p></p>
-  </div>
-    <div class="p-3 mb-2 bg-warning text-dark ">
-      <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
-          <p>username: <input type="text" id="username"></p>
-          <p>password: <input type="text" id="password"></p>
-          <button onclick="clicked()" id="login-button" >inloggen</button>
+  <main>
+    <div class="p-3 mb-2 bg-warning text-dark position-absolute top-50 start-10 translate-middle ">
+      <div class="">
+        <p>username: <input type="text" id="username"></p>
+        <p>password: <input type="text" id="password"></p>
+        <button onclick="clicked()" id="login-button" >inloggen</button>
       </div>
     </div>
-  <script src="E-functies.js"></script>
+  </main>
+  <!--<script src="E-functies.js"></script>-->
 </body>
 </html>

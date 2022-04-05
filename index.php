@@ -15,14 +15,17 @@
 
 <body>
   <?php include_once 'nav.php'; ?>
-  <main id="cv1">
-    <div class="card text-white bg-warning mb-3 cv1">
+  <main class="cv1">
+    <div class="card text-white bg-warning mb-3 ">
       <div class="card-img-overlay">
-        <h5 class="card-title text-center">welkom bij Pizzahuis</h5>
+        <h5 class="card-title text-center dark">welkom bij Pizzahuis</h5>
         <p class="card-text text-center"></p>
         <p class="card-text text-center"></p>
       </div>
     </div>
   </main>
+  <footer class="warning">
+
+  </footer>
 </body>
 </html>
