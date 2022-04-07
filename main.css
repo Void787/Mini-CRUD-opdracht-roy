@@ -7,10 +7,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-main {
-  height: 100% !important;
-  width: 100% !important;
-}
 .hover1:hover {
   background-color: #008d44 !important;
 }
@@ -35,5 +31,8 @@ main {
 #center_flex{
   display: flex;
   align-items: center;
-  
+}
+#login form{
+  display: flex;
+  align-items: center;
 }

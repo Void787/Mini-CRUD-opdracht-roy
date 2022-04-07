@@ -19,14 +19,20 @@
 
   <?php include_once 'nav.php'; ?>
   <main>
-    <div class="p-3 mb-2 bg-warning text-dark position-absolute top-50 start-10 translate-middle ">
+    <form action="login.php" method="post" id="login form">
+      username <input type="text" name="username" value="" /><br />
+      password <input type="text" name="password" value=""><br/>
+      <input type="submit" value="login" />
+    </form>
+  </main>
+  <!--<script src="E-functies.js"></script>-->
+</body>
+</html>
+
+<!--<div class="p-3 mb-2 bg-warning text-dark position-absolute top-50 start-10 translate-middle ">
       <div class="">
         <p>username: <input type="text" id="username"></p>
         <p>password: <input type="text" id="password"></p>
         <button onclick="clicked()" id="login-button" >inloggen</button>
       </div>
     </div>
-  </main>
-  <!--<script src="E-functies.js"></script>-->
-</body>
-</html>
