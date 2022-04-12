@@ -15,17 +15,25 @@
 
 <body>
   <?php include_once 'nav.php'; ?>
-  <main class="cv1">
-    <div class="card text-white bg-warning mb-3 ">
+  <main class="homeachtergrond">
+    
+    <div class="card text-white bg-warning mb-3">
       <div class="card-img-overlay">
-        <h5 class="card-title text-center dark">welkom bij Pizzahuis</h5>
+        <ul>
+          <li>
+            <h2 class="text-danger">Welkom </h2>
+          </li>
+          <li>
+            <h2>bij</h2>
+          </li>
+          <li>
+            <h2 class="text-succes">Pizzahuis</h2>
+          </li>
+        </ul>
         <p class="card-text text-center"></p>
         <p class="card-text text-center"></p>
       </div>
     </div>
   </main>
-  <footer class="warning">
-
-  </footer>
 </body>
 </html>
