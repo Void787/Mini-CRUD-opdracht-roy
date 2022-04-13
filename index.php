@@ -19,21 +19,18 @@
     
     <div class="card text-white bg-warning mb-3">
       <div class="card-img-overlay">
-        <ul>
-          <li>
-            <h2 class="text-danger">Welkom </h2>
-          </li>
-          <li>
-            <h2>bij</h2>
-          </li>
-          <li>
-            <h2 class="text-succes">Pizzahuis</h2>
-          </li>
-        </ul>
-        <p class="card-text text-center"></p>
-        <p class="card-text text-center"></p>
+        <h5 class="card-title text-center text-dark">welkom bij pizzahuis</h5>
+        <p class="card-text text-center text-dark">even trek in de italiaanse snack?</p>
+        <p class="card-text text-center text-dark">dan ben je op de goede plek!</p>
       </div>
     </div>
   </main>
+  <footer>
+    <ul>
+      <li>
+      <a class="nav-link hover1" href="index.php">home</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
