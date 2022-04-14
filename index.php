@@ -16,21 +16,9 @@
 <body>
   <?php include_once 'nav.php'; ?>
   <main class="homeachtergrond">
-    
-    <div class="card text-white bg-warning mb-3">
-      <div class="card-img-overlay">
-        <h5 class="card-title text-center text-dark">welkom bij pizzahuis</h5>
-        <p class="card-text text-center text-dark">even trek in de italiaanse snack?</p>
-        <p class="card-text text-center text-dark">dan ben je op de goede plek!</p>
-      </div>
-    </div>
+    <h5 class="fontnaam">welkom bij pizzahuis</h5>
+    <p class="fonttekst">even trek in de italiaanse snack?</p>
+    <p class="fonttekst">dan ben je op de goede plek!</p>
   </main>
-  <footer>
-    <ul>
-      <li>
-      <a class="nav-link hover1" href="index.php">home</a>
-      </li>
-    </ul>
-  </footer>
 </body>
 </html>

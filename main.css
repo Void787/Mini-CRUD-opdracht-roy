@@ -7,18 +7,23 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .hover1:hover {
   background-color: #008d44 !important;
 }
+
 .hover2:hover {
   background-color: #f7f7f7 !important;
 }
+
 .hover3:hover {
   background-color: #f7f7f7 !important;
 }
+
 .hover4:hover {
   background-color: #c82a35 !important;
 }
+
 .homeachtergrond {
   background-image: url("../Mini-CRUD-opdracht/img/pizza.jpg") !important;
   background-color: black !important;
@@ -29,17 +34,27 @@ header {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
-#center_flex{
+
+#center_flex {
   display: flex;
   align-items: center;
 }
-#login form{
+
+#login form {
   display: flex;
   align-items: center;
 }
-main ul{
-  display: flex;
-  columns: row;
-  align-items: center;
+
+.fonttekst {
+  font-size: 25px;
+  color: #008000;
+}
+
+.fontnaam {
+  font-size: 50px;
+  color: #B93C3C;
 }
