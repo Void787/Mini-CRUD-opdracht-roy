@@ -1,4 +1,5 @@
-<?php include_once 'odp.php'; ?>
+<?php include_once 'odp.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,112 +19,187 @@
   <table class="m-1" id="center_flex">
     <tr>
       <td>
-        <div class="card me-3" style="width: 18rem;">
+        <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 1";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"><?php include_once '../Mini-CRUD-opdracht/cards/card1.php' ?></p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-        <div class="card me-3" style="width: 18rem;">
+        <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 2";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-        <div class="card me-3" style="width: 18rem;">
+        <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 3";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-        <div class="card me-3" style="width: 18rem;">
+        <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 4";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
-      
       <td>
-        <div class="card" style="width: 18rem;">
+        <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 5";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </td>
-    </tr>
-        <tr>
-        <td>
-      <div class="card me-3" style="width: 18rem;">
-          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-      <div class="card me-3" style="width: 18rem;">
-          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+        <div class="card me-3 menulist">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 6";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-      <div class="card me-3" style="width: 18rem;">
-          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+        <div class="card me-3 menulist">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 7";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
       <td>
-      <div class="card me-3" style="width: 18rem;">
-          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+        <div class="card me-3 menulist">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 8";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
-      
       <td>
-      <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/corto-restaurant.jpg" alt="Card image cap">
+        <div class="card me-3 menulist">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 9";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card me-3 menulist">
+          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 10";
+                $result = $connect->query($sql);
+                foreach ($result as $re) { ?>
+          <div class="card-body">
+            <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
+            <ul class="listofproduct card-text">
+              <li><?php echo "beschrijving: ",$re["beschrijving"]; ?></li>
+              <li><?php echo "prijs: €",$re["prijs"]; ?></li>
+            </ul>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </td>
     </tr>
 
   </table>
-
 
 </html>
