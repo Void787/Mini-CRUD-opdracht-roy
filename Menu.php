@@ -22,7 +22,7 @@
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title"></h5>
-            <p class="card-text"><?php  ?></p>
+            <p class="card-text"><?php include_once '../Mini-CRUD-opdracht/cards/card1.php' ?></p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
