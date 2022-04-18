@@ -17,10 +17,11 @@
 <body>
   <?php include_once 'nav.php'; ?>
   <table class="m-1" id="center_flex">
+  <input type="file" id="image_input" accept="img/png, img/jpg">
     <tr>
       <td>
         <div class="card me-3 menulist">
-          <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
+          <div id="Img1"></div>
           <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 1";
                 $result = $connect->query($sql);
                 foreach ($result as $re) { ?>
@@ -108,6 +109,8 @@
           </div>
         </div>
       </td>
+    </tr>
+    <tr>
       <td>
         <div class="card me-3 menulist">
           <img class="card-img-top" src="img/Schermafbeelding kleuren keuze.png" alt="Card image cap">
@@ -201,5 +204,6 @@
     </tr>
 
   </table>
-
+  <script src="E-functies.js"></script>
+</body>
 </html>
