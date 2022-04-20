@@ -22,9 +22,12 @@
       <td>
         <div class="card me-3 menulist">
           <div id="Img1"></div>
-          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving` FROM `producten` WHERE ID = 1";
-                $result = $connect->query($sql);
+          <?php $sql = "SELECT `naam`, `prijs`, `beschrijving`, 'img' FROM `producten` WHERE ID = 11";
+                $smt = $connect->query($sql);
+                $smt->execute();
+                $result = $smt->fetchAll();
                 foreach ($result as $re) { ?>
+                <?php echo $re["img"]; ?></li>
           <div class="card-body">
             <h5 class="card-title"><?php echo "naam: ",$re["naam"]; ?></h5>
             <ul class="listofproduct card-text">
@@ -204,6 +207,6 @@
     </tr>
 
   </table>
-  <script src="E-functies.js"></script>
+  <script src="js/E-functies.js"></script>
 </body>
 </html>
