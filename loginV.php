@@ -1,7 +1,7 @@
 <?php 
 include_once "odp.php";
  
-$sql = "SELECT * FROM admin WHERE username = :username AND passwd = :password";
+$sql = "SELECT * FROM admin WHERE username = :username OR password = :password";
 $stmt = $connect->prepare($sql);
 $stmt->bindParam(":username", $_POST['username']);
 $stmt->bindParam(":password", $_POST['password']);
@@ -13,6 +13,6 @@ if(count($result) > 0){
 } else {
     echo "username niet gevonden";
 }
-var_dump($_POST);
+
 ?>
  

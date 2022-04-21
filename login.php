@@ -19,10 +19,10 @@
 
   <?php include_once 'nav.php'; ?>
   <main>
-    <form action="php login voorbeeld.php" method="post" id="login form">
+    <form action="loginV.php" method="post" id="login form">
       username <input type="text" name="username" value="" /><br />
       password <input type="text" name="password" value=""><br/>
-      <input type="submit" value="login" />
+      <input type="submit" value="login"/>
     </form>
   </main>
   <!--<script src="E-functies.js"></script>-->
