@@ -1,12 +1,5 @@
 <?php
  require_once 'odp.php';
-// if($_SESSION['loggedin'] == true){
-//     echo "Welkom " . $_SESSION['username']
-// ;}
-
-// else{
-//     header("Location: inloggen.php")
-// ;}
 
 if(isset($_POST["toevoegen"])){ 
     $sql = "INSERT INTO producten

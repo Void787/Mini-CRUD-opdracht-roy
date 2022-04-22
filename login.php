@@ -1,5 +1,5 @@
 <?php 
-  require_once'odp.php';
+  require_once 'odp.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,20 +19,27 @@
 
   <?php include_once 'nav.php'; ?>
   <main>
-    <form action="loginV.php" method="post" id="login form">
-      username <input type="text" name="username" value="" /><br />
-      password <input type="text" name="password" value=""><br/>
-      <input type="submit" value="login"/>
-    </form>
+    <div class="d-flex justify-content-center">
+      <form action="loginV.php" method="post" id="login form">
+        <p>Login for admin</p>
+        username <input type="text" name="username" value="" /><br />
+        password <input type="text" name="password" value=""><br/>
+        <input type="submit" value="login"/>
+      </form>
+    </div>
+    <p> 
+       
+     
+    </p>
+    <div class="d-flex justify-content-center">
+      <form action="loginU.php" method="post" id="login form">
+        <p>Login for users</p>
+        username <input type="text" name="username" value="" /><br />
+        password <input type="text" name="password" value=""><br/>
+        <input type="submit" value="login"/>
+        <a href="insertuser.php?id=<?php echo $re["ID"]; ?>">no account yet click here!</a>
+      </form>
+    </div>
   </main>
-  <!--<script src="E-functies.js"></script>-->
 </body>
 </html>
-
-<!--<div class="p-3 mb-2 bg-warning text-dark position-absolute top-50 start-10 translate-middle ">
-      <div class="">
-        <p>username: <input type="text" id="username"></p>
-        <p>password: <input type="text" id="password"></p>
-        <button onclick="clicked()" id="login-button" >inloggen</button>
-      </div>
-    </div>
