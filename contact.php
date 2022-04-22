@@ -12,8 +12,21 @@
   </script>
 </head>
 
-<body>
+<body class="bg-warning">
   <?php include_once 'nav.php'; ?>
-</body>
 
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">e-mail</th>
+      <th scope="col">telefoon</th>
+      <th scope="col">woonplaats</th>
+    </tr>
+  </thead>
+    <tr>
+      <td scope="row">1195841@student.roc-nijmegen.nl</td>
+      <td scope="row">06 25473757</td>
+      <td scope="row">Brabant , vortum mullem</td>
+    </tr>
+</body>
 </html>

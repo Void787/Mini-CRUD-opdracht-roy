@@ -22,5 +22,5 @@ header("Location: login.php")
     Prijs<input type="text" name="password" id=""><br/>
     
     <input type="submit" name="toevoegen" value="submit">
-    <a href="setting.php">back</a>
+    <a href="login.php">back</a>
 </form>
